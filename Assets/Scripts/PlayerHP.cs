@@ -16,12 +16,12 @@ public class PlayerHP : MonoBehaviour {
 
 	}
 
-    void OnTriggerEnter(Collider other) {
+    void OnCollsionEnter2D(Collision2D other) {
 
-        if (other.tag == "Enemy") {
+        //if (other == "Enemy") {
 
-            playerHealth -= 1;
-        }
+        //    playerHealth -= 1;
+        //}
 
     }
 
