@@ -72,6 +72,13 @@ namespace UnityStandardAssets._2D
                     m_Rigidbody2D.AddForce(-transform.right * dashMoveSpeed);
                 }
             }
+
+
+            if (Input.GetButtonDown("Attack")) {
+
+
+
+            }
         }
 
 
