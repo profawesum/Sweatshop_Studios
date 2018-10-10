@@ -20,6 +20,9 @@ namespace UnityStandardAssets._2D
         private Rigidbody2D m_Rigidbody2D;
         private bool m_FacingRight = true;  // For determining which way the player is currently facing.
 
+
+        public float dashMoveSpeed = 5000;
+
         private void Awake()
         {
             // Setting up references.
@@ -46,6 +49,22 @@ namespace UnityStandardAssets._2D
 
             // Set the vertical animation
             m_Anim.SetFloat("vSpeed", m_Rigidbody2D.velocity.y);
+        }
+
+
+        void Update() {
+            if (Input.GetButtonDown("Dash"))
+            {
+
+                if (m_FacingRight == true)
+                {
+                    m_Rigidbody2D.AddForce(transform.right * dashMoveSpeed);
+                }
+                else
+                {
+                    m_Rigidbody2D.AddForce(-transform.right * dashMoveSpeed);
+                }
+            }
         }
 
 
