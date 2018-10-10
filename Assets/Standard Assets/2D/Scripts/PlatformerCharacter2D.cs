@@ -52,8 +52,6 @@ namespace UnityStandardAssets._2D
         }
 
 
-
-
         //Updates each frame
         void Update() {
 
@@ -76,14 +74,10 @@ namespace UnityStandardAssets._2D
 
             if (Input.GetButtonDown("Attack")) {
 
-
+                //TODO: Add attack functionality
 
             }
         }
-
-
-
-
 
         public void Move(float move, bool crouch, bool jump)
         {
