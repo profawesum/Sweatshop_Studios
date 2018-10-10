@@ -52,20 +52,30 @@ namespace UnityStandardAssets._2D
         }
 
 
+
+
+        //Updates each frame
         void Update() {
+
+            //gets input for dash
             if (Input.GetButtonDown("Dash"))
             {
-
+                //checks to find orientation
                 if (m_FacingRight == true)
                 {
+                    //adds force to the rigidbody
                     m_Rigidbody2D.AddForce(transform.right * dashMoveSpeed);
                 }
                 else
                 {
+                    //adds force to the rigidbody
                     m_Rigidbody2D.AddForce(-transform.right * dashMoveSpeed);
                 }
             }
         }
+
+
+
 
 
         public void Move(float move, bool crouch, bool jump)
