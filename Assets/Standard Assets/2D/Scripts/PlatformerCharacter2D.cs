@@ -22,6 +22,8 @@ namespace UnityStandardAssets._2D
 
 
         public float dashMoveSpeed = 5000;
+        public bool dashTime = true;
+        public bool dJump = true;
 
         private void Awake()
         {
@@ -44,9 +46,9 @@ namespace UnityStandardAssets._2D
             {
                 if (colliders[i].gameObject != gameObject)
                     m_Grounded = true;
+                    //dJump = true;
             }
             m_Anim.SetBool("Ground", m_Grounded);
-
             // Set the vertical animation
             m_Anim.SetFloat("vSpeed", m_Rigidbody2D.velocity.y);
         }
@@ -55,26 +57,39 @@ namespace UnityStandardAssets._2D
         //Updates each frame
         void Update() {
 
+            //Double Jump functionality
+            if (Input.GetButtonDown("Jump") && m_Grounded == false && dJump == true)
+            {
+                //sets double jump to false
+                dJump = false;
+                //adds jump force to the player
+                m_Rigidbody2D.AddForce(new Vector2(0F, m_JumpForce));
+            }
+
+
             //gets input for dash
             if (Input.GetButtonDown("Dash"))
-            {
+            { 
                 //checks to find orientation
                 if (m_FacingRight == true)
                 {
-                    //adds force to the rigidbody
-                    m_Rigidbody2D.AddForce(transform.right * dashMoveSpeed);
+                    //adds force to the rigidbody by a new vector 2
+                    m_Rigidbody2D.AddForce(new Vector2(dashMoveSpeed, 0f));
+                 
                 }
                 else
                 {
-                    //adds force to the rigidbody
-                    m_Rigidbody2D.AddForce(-transform.right * dashMoveSpeed);
+                    //adds force to the rigidbody by a new vector 2
+                    m_Rigidbody2D.AddForce(new Vector2(-dashMoveSpeed, 0f));
+                   // m_Rigidbody2D.AddForce(-transform.right * dashMoveSpeed); old way of dashing
                 }
+
             }
 
 
             if (Input.GetButtonDown("Attack")) {
 
-                //TODO: Add attack functionality
+                //TODO: Add Attack functionality
 
             }
         }
@@ -122,10 +137,14 @@ namespace UnityStandardAssets._2D
             // If the player should jump...
             if (m_Grounded && jump && m_Anim.GetBool("Ground"))
             {
+
+                dJump = true;
+
                 // Add a vertical force to the player.
                 m_Grounded = false;
                 m_Anim.SetBool("Ground", false);
                 m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
+               
             }
         }
 
