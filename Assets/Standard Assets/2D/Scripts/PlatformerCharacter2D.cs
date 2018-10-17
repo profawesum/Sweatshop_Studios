@@ -123,11 +123,12 @@ namespace UnityStandardAssets._2D
                 if (Physics2D.OverlapCircle(m_CeilingCheck.position, k_CeilingRadius, m_WhatIsGround))
                 {
                     crouch = true;
+                    // Set whether or not the character is crouching in the animator
+                    m_Anim.SetBool("Crouch", crouch);
                 }
             }
 
-            // Set whether or not the character is crouching in the animator
-            m_Anim.SetBool("Crouch", crouch);
+    
 
 
             //only control the player if grounded or airControl is turned on
