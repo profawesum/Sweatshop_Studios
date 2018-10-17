@@ -25,6 +25,9 @@ namespace UnityStandardAssets._2D
         public bool dashTime = true;
         public bool dJump = true;
 
+
+
+
         private void Awake()
         {
             // Setting up references.
@@ -33,6 +36,8 @@ namespace UnityStandardAssets._2D
             m_Anim = GetComponent<Animator>();
             m_Rigidbody2D = GetComponent<Rigidbody2D>();
         }
+
+
 
 
         private void FixedUpdate()
@@ -46,7 +51,6 @@ namespace UnityStandardAssets._2D
             {
                 if (colliders[i].gameObject != gameObject)
                     m_Grounded = true;
-                    //dJump = true;
             }
             m_Anim.SetBool("Ground", m_Grounded);
             // Set the vertical animation
@@ -54,8 +58,13 @@ namespace UnityStandardAssets._2D
         }
 
 
+
+
+
+
         //Updates each frame
-        void Update() {
+        void Update()
+        {
 
             //Double Jump functionality
             if (Input.GetButtonDown("Jump") && m_Grounded == false && dJump == true)
@@ -67,32 +76,28 @@ namespace UnityStandardAssets._2D
             }
 
 
-            //gets input for dash
+            //gets input for dash (dash is shift by default)
             if (Input.GetButtonDown("Dash"))
-            { 
+            {
                 //checks to find orientation
                 if (m_FacingRight == true)
                 {
                     //adds force to the rigidbody by a new vector 2
                     m_Rigidbody2D.AddForce(new Vector2(dashMoveSpeed, 0f));
-                 
+
                 }
                 else
                 {
                     //adds force to the rigidbody by a new vector 2
                     m_Rigidbody2D.AddForce(new Vector2(-dashMoveSpeed, 0f));
-                   // m_Rigidbody2D.AddForce(-transform.right * dashMoveSpeed); old way of dashing
+                    // m_Rigidbody2D.AddForce(-transform.right * dashMoveSpeed); old way of dashing
                 }
 
             }
-
-
-            if (Input.GetButtonDown("Attack")) {
-
-                //TODO: Add Attack functionality
-
-            }
         }
+
+
+
 
         public void Move(float move, bool crouch, bool jump)
         {
@@ -109,6 +114,7 @@ namespace UnityStandardAssets._2D
             // Set whether or not the character is crouching in the animator
             m_Anim.SetBool("Crouch", crouch);
 
+
             //only control the player if grounded or airControl is turned on
             if (m_Grounded || m_AirControl)
             {
@@ -121,12 +127,14 @@ namespace UnityStandardAssets._2D
                 // Move the character
                 m_Rigidbody2D.velocity = new Vector2(move*m_MaxSpeed, m_Rigidbody2D.velocity.y);
 
+
                 // If the input is moving the player right and the player is facing left...
                 if (move > 0 && !m_FacingRight)
                 {
                     // ... flip the player.
                     Flip();
                 }
+
                     // Otherwise if the input is moving the player left and the player is facing right...
                 else if (move < 0 && m_FacingRight)
                 {
@@ -134,6 +142,8 @@ namespace UnityStandardAssets._2D
                     Flip();
                 }
             }
+
+
             // If the player should jump...
             if (m_Grounded && jump && m_Anim.GetBool("Ground"))
             {
@@ -147,6 +157,11 @@ namespace UnityStandardAssets._2D
                
             }
         }
+
+
+
+
+
 
 
         private void Flip()
