@@ -51,7 +51,6 @@ namespace UnityStandardAssets._2D
             {
                 if (colliders[i].gameObject != gameObject)
                     m_Grounded = true;
-                    //dJump = true;
             }
             m_Anim.SetBool("Ground", m_Grounded);
             // Set the vertical animation
