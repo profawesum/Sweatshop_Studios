@@ -63,7 +63,8 @@ namespace UnityStandardAssets._2D
 
 
         //Updates each frame
-        void Update() {
+        void Update()
+        {
 
             //Double Jump functionality
             if (Input.GetButtonDown("Jump") && m_Grounded == false && dJump == true)
@@ -75,29 +76,22 @@ namespace UnityStandardAssets._2D
             }
 
 
-            //gets input for dash
+            //gets input for dash (dash is shift by default)
             if (Input.GetButtonDown("Dash"))
-            { 
+            {
                 //checks to find orientation
                 if (m_FacingRight == true)
                 {
                     //adds force to the rigidbody by a new vector 2
                     m_Rigidbody2D.AddForce(new Vector2(dashMoveSpeed, 0f));
-                 
+
                 }
                 else
                 {
                     //adds force to the rigidbody by a new vector 2
                     m_Rigidbody2D.AddForce(new Vector2(-dashMoveSpeed, 0f));
-                   // m_Rigidbody2D.AddForce(-transform.right * dashMoveSpeed); old way of dashing
+                    // m_Rigidbody2D.AddForce(-transform.right * dashMoveSpeed); old way of dashing
                 }
-
-            }
-
-
-            if (Input.GetButtonDown("Attack")) {
-
-                //TODO: Add Attack functionality
 
             }
         }
