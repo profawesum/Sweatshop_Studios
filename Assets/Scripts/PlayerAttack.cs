@@ -8,6 +8,7 @@ public class PlayerAttack : MonoBehaviour {
     Collider2D m_Collider;
     public bool hasAttacked;
     public float timer;
+    public float slowTimer;
 
     // Use this for initialization
     void Start () {
@@ -20,18 +21,42 @@ public class PlayerAttack : MonoBehaviour {
 
 
         //attack is Q by default
-        if (Input.GetButtonDown("Attack")) {
+        if (Input.GetButtonDown("Attack") && hasAttacked == false) {
             m_Collider.enabled = true;
-
+            hasAttacked = true;
         }
+
         if (m_Collider.enabled == true) {
             timer++;
         }
-        if (timer == 5)
-        {
-            m_Collider.enabled = false;
-            timer = 0;
 
+        if (timer >= 15){
+            m_Collider.enabled = false;
+            timer++;
         }
+
+        if (timer >= 30) {
+            timer = 0;
+            hasAttacked = false;
+        }
+
+
+
+        //slowtime default key is e
+        if (Input.GetButton("SlowTime"))
+        {
+           
+            Time.timeScale = 0.5f;
+        }
+        if (Time.timeScale == 0.5f) {
+            slowTimer++;
+        }
+        if(slowTimer >= 60){
+
+            Time.timeScale = 1.0f;
+            slowTimer = 0;
+        }
+
+
     }
 }
