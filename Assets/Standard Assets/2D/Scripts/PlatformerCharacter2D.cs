@@ -104,7 +104,7 @@ namespace UnityStandardAssets._2D
 
                 timer++;
             }
-            if (timer == 40) {
+            if (timer == 15) {
                 timer = 0;
                 m_Anim.SetBool("Attack", false);
             }
