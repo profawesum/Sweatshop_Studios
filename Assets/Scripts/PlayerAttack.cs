@@ -5,12 +5,12 @@ using UnityEngine;
 public class PlayerAttack : MonoBehaviour {
 
 
-    Collider m_Collider;
+    Collider2D m_Collider;
     public float timer;
 
     // Use this for initialization
     void Start () {
-        m_Collider = GetComponent<Collider>();
+        m_Collider = GetComponent<Collider2D>();
     }
 	
 	// Update is called once per frame
@@ -31,11 +31,8 @@ public class PlayerAttack : MonoBehaviour {
         if (timer == 15) {
 
             m_Collider.enabled = true;
+            timer = 0;
 
         }
-
-
-
-
     }
 }
