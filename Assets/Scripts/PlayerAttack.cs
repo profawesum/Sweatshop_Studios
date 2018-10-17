@@ -42,7 +42,7 @@ public class PlayerAttack : MonoBehaviour {
 
 
 
-        //slowtime default key is e
+        //slowtime default key is E
         if (Input.GetButton("SlowTime"))
         {
            
