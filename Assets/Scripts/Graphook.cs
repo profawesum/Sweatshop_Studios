@@ -22,7 +22,7 @@ public class Graphook : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetMouseButtonDown(0))
         {
             Debug.Log("hello");
             targetpos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -37,10 +37,10 @@ public class Graphook : MonoBehaviour
                 joint.connectedBody = hit.collider.gameObject.GetComponent<Rigidbody2D>();
                 joint.distance = Vector2.Distance(transform.position, hit.point);
             }
-            if (Input.GetKeyUp(KeyCode.E))
-            {
-                joint.enabled = false;
-            }
+        }
+        if (Input.GetMouseButtonUp(0))
+        {
+            joint.enabled = false;
         }
     }
 }

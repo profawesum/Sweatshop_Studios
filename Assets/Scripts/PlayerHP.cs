@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerHP : MonoBehaviour {
 
-
+    
     public int playerHealth = 3;
 
 	// Update is called once per frame
