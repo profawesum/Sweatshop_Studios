@@ -24,7 +24,7 @@ namespace UnityStandardAssets._2D
         public float dashMoveSpeed = 5000;
         public bool dashTime = true;
         public bool dJump = true;
-
+        public float timer;
 
 
 
@@ -93,6 +93,20 @@ namespace UnityStandardAssets._2D
                     // m_Rigidbody2D.AddForce(-transform.right * dashMoveSpeed); old way of dashing
                 }
 
+            }
+
+            if (Input.GetButton("Attack")) {
+
+                m_Anim.SetBool("Attack", true);
+
+            }
+            if (m_Anim.GetBool("Attack") == true) {
+
+                timer++;
+            }
+            if (timer == 40) {
+                timer = 0;
+                m_Anim.SetBool("Attack", false);
             }
         }
 
