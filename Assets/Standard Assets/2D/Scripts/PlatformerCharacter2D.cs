@@ -25,6 +25,9 @@ namespace UnityStandardAssets._2D
         public bool dashTime = true;
         public bool dJump = true;
 
+
+
+
         private void Awake()
         {
             // Setting up references.
@@ -33,6 +36,8 @@ namespace UnityStandardAssets._2D
             m_Anim = GetComponent<Animator>();
             m_Rigidbody2D = GetComponent<Rigidbody2D>();
         }
+
+
 
 
         private void FixedUpdate()
@@ -52,6 +57,10 @@ namespace UnityStandardAssets._2D
             // Set the vertical animation
             m_Anim.SetFloat("vSpeed", m_Rigidbody2D.velocity.y);
         }
+
+
+
+
 
 
         //Updates each frame
@@ -94,6 +103,9 @@ namespace UnityStandardAssets._2D
             }
         }
 
+
+
+
         public void Move(float move, bool crouch, bool jump)
         {
             // If crouching, check to see if the character can stand up
@@ -109,6 +121,7 @@ namespace UnityStandardAssets._2D
             // Set whether or not the character is crouching in the animator
             m_Anim.SetBool("Crouch", crouch);
 
+
             //only control the player if grounded or airControl is turned on
             if (m_Grounded || m_AirControl)
             {
@@ -121,12 +134,14 @@ namespace UnityStandardAssets._2D
                 // Move the character
                 m_Rigidbody2D.velocity = new Vector2(move*m_MaxSpeed, m_Rigidbody2D.velocity.y);
 
+
                 // If the input is moving the player right and the player is facing left...
                 if (move > 0 && !m_FacingRight)
                 {
                     // ... flip the player.
                     Flip();
                 }
+
                     // Otherwise if the input is moving the player left and the player is facing right...
                 else if (move < 0 && m_FacingRight)
                 {
@@ -134,6 +149,8 @@ namespace UnityStandardAssets._2D
                     Flip();
                 }
             }
+
+
             // If the player should jump...
             if (m_Grounded && jump && m_Anim.GetBool("Ground"))
             {
@@ -147,6 +164,11 @@ namespace UnityStandardAssets._2D
                
             }
         }
+
+
+
+
+
 
 
         private void Flip()
