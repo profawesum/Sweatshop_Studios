@@ -25,6 +25,7 @@ namespace UnityStandardAssets._2D
         public bool dashTime = true;
         public bool dJump = true;
         public float timer;
+        public float delay;
 
 
 
@@ -104,7 +105,7 @@ namespace UnityStandardAssets._2D
 
                 timer++;
             }
-            if (timer == 15) {
+            if (timer == 5) {
                 timer = 0;
                 m_Anim.SetBool("Attack", false);
             }

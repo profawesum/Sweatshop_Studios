@@ -15,11 +15,7 @@ public class FireBallEnemy : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        //checks value of hp
-        if (Hp <= 0) {
-            //destroys the enemy
-            Destroy(gameObject);
-        }
+
         timer++;
 
         //checks to see if the player is in range
@@ -51,11 +47,6 @@ public class FireBallEnemy : MonoBehaviour {
             inRange = true;
         }
 
-        //checks to see if playerWeapon 
-        if (other.tag == "PlayerWeapon") {
-            //reduce Hp by 1
-            Hp -= 1;
-        }
 
     }
 

@@ -6,6 +6,7 @@ public class PlayerAttack : MonoBehaviour {
 
 
     Collider2D m_Collider;
+    public bool hasAttacked;
     public float timer;
 
     // Use this for initialization
@@ -19,18 +20,16 @@ public class PlayerAttack : MonoBehaviour {
 
 
         //attack is Q by default
-        if (Input.GetButton("Attack")) {
-
-            m_Collider.enabled = false;
+        if (Input.GetButtonDown("Attack")) {
+            m_Collider.enabled = true;
 
         }
-        if (m_Collider.enabled == false) {
-
+        if (m_Collider.enabled == true) {
             timer++;
         }
-        if (timer == 15) {
-
-            m_Collider.enabled = true;
+        if (timer == 5)
+        {
+            m_Collider.enabled = false;
             timer = 0;
 
         }
