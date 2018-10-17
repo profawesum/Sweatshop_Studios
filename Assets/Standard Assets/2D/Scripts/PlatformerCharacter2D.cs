@@ -27,6 +27,8 @@ namespace UnityStandardAssets._2D
         public float timer;
         public float delay;
 
+        public bool hasAttacked;
+
 
 
         private void Awake()
@@ -96,8 +98,9 @@ namespace UnityStandardAssets._2D
 
             }
 
-            if (Input.GetButton("Attack")) {
-
+            //attack anims
+            if (Input.GetButtonDown("Attack") && hasAttacked == false) {
+                hasAttacked = true;
                 m_Anim.SetBool("Attack", true);
 
             }
@@ -105,9 +108,13 @@ namespace UnityStandardAssets._2D
 
                 timer++;
             }
-            if (timer == 5) {
-                timer = 0;
+            if (timer >= 20) {
+                timer++;
                 m_Anim.SetBool("Attack", false);
+            }
+            if (timer == 30) {
+                hasAttacked = false;
+                timer = 0;
             }
         }
 
@@ -123,11 +130,12 @@ namespace UnityStandardAssets._2D
                 if (Physics2D.OverlapCircle(m_CeilingCheck.position, k_CeilingRadius, m_WhatIsGround))
                 {
                     crouch = true;
+                    // Set whether or not the character is crouching in the animator
+                    m_Anim.SetBool("Crouch", crouch);
                 }
             }
 
-            // Set whether or not the character is crouching in the animator
-            m_Anim.SetBool("Crouch", crouch);
+    
 
 
             //only control the player if grounded or airControl is turned on
