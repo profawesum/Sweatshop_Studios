@@ -9,6 +9,9 @@ public class FireBallEnemy : MonoBehaviour {
     public Rigidbody projectile;
     public float bulletSpeed;
 
+
+
+    public int timeDelay;
     public int timer;
 
 	// Update is called once per frame
@@ -20,7 +23,7 @@ public class FireBallEnemy : MonoBehaviour {
         //checks to see if the player is in range
         if (inRange == true)
         {
-            if (timer > 50)
+            if (timer > timeDelay)
             {
                 //create a clone of the rigidbody
                 Rigidbody clone;
