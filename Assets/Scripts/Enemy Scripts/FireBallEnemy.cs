@@ -7,8 +7,7 @@ public class FireBallEnemy : MonoBehaviour {
     public bool inRange = false;
     public GameObject fireball;
     public Rigidbody projectile;
-    public int Hp;
-
+    public float bulletSpeed;
 
     public int timer;
 
@@ -28,7 +27,7 @@ public class FireBallEnemy : MonoBehaviour {
                 //instantiate the clone
                 clone = Instantiate(projectile, transform.position, transform.rotation) as Rigidbody;
                 //give the clone speed
-                clone.velocity = transform.TransformDirection(Vector3.left * 50);
+                clone.velocity = transform.TransformDirection(Vector3.left * bulletSpeed);
                 //set timer to 0
                 timer = 0;
             }
