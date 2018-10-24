@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class PlayerHP : MonoBehaviour {
 
-    
-    public int playerHealth = 3;
+
+    public int playerHealth = 1;
 
 	// Update is called once per frame
 	void Update () {
@@ -16,12 +16,21 @@ public class PlayerHP : MonoBehaviour {
 
 	}
 
-    void OnTriggerEnter2d(Collider2D other) {
+
+    void OnTriggerEnter2D(Collider2D other) {
 
         if (other.tag == "Enemy") {
             playerHealth -= 1;
         }
 
+    }
+
+
+    void OnTriggerEnter(Collider collider) {
+
+        if (collider.tag == "Enemy") {
+            playerHealth -= 1;
+        }
     }
 
 
