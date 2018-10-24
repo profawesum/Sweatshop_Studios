@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4910216673660954}
   - component: {fileID: 33808123475871888}
   - component: {fileID: 23184537903164440}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube
   m_TagString: PlayerWeapon
   m_Icon: {fileID: 0}
@@ -36,7 +36,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4541184213048774}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: CeilingCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53,7 +53,7 @@ GameObject:
   - component: {fileID: 4441159233332712}
   - component: {fileID: 114117167790450786}
   - component: {fileID: 61940517627462266}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Player_weapon
   m_TagString: PlayerWeapon
   m_Icon: {fileID: 0}
@@ -68,7 +68,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4282383791829442}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GroundCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,7 +92,9 @@ GameObject:
   - component: {fileID: 61223245707308378}
   - component: {fileID: 61616337296592090}
   - component: {fileID: 114880256318599872}
-  m_Layer: 0
+  - component: {fileID: 232269098723005060}
+  - component: {fileID: 114900070389137486}
+  m_Layer: 8
   m_Name: CharacterRobotBoy
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -106,7 +108,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1627373979294904}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.39, y: -1.1, z: 0}
+  m_LocalPosition: {x: 114.6, y: 10.8, z: 0}
   m_LocalScale: {x: 1.7715329, y: 1.7715304, z: 1}
   m_Children:
   - {fileID: 4282383791829442}
@@ -349,7 +351,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5871e98bd4095364e864a4fe0246a1f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hasAttacked: 0
   timer: 0
+  slowTimer: 0
 --- !u!114 &114316116518920330
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -373,7 +377,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_MaxSpeed: 10
-  m_JumpForce: 800
+  m_JumpForce: 600
   m_CrouchSpeed: 0.25
   m_AirControl: 1
   m_WhatIsGround:
@@ -383,6 +387,8 @@ MonoBehaviour:
   dashTime: 1
   dJump: 1
   timer: 0
+  delay: 0
+  hasAttacked: 0
 --- !u!114 &114880256318599872
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -395,6 +401,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerHealth: 3
+--- !u!114 &114900070389137486
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1627373979294904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b4a3c0220f2a9b43b3645503087218a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distance: 10
+  mask:
+    serializedVersion: 2
+    m_Bits: 55
 --- !u!212 &212973841063290124
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -441,3 +462,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!232 &232269098723005060
+DistanceJoint2D:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1627373979294904}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 0}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 107.07078, y: 10.642576}
+  m_AutoConfigureDistance: 1
+  m_Distance: 7.530866
+  m_MaxDistanceOnly: 0
