@@ -53,11 +53,8 @@ public class Graphook : MonoBehaviour
                 joint.connectedAnchor = connectPoint;
 
                 joint.connectedBody = hit.collider.gameObject.GetComponent<Rigidbody2D>();
-<<<<<<< HEAD
                 joint.connectedAnchor = hit.point - new Vector2(hit.collider.transform.position.x,hit.collider.transform.position.y);
-=======
-                //joint.connectedAnchor = hit.point - new Vector2(hit.collider.transform.position.x, hit.collider.transform.position.y);
->>>>>>> 68a64bd68fe6a6075078fd14fff334c3d1432b82
+                joint.connectedAnchor = hit.point - new Vector2(hit.collider.transform.position.x, hit.collider.transform.position.y);
                 joint.distance = Vector2.Distance(transform.position, hit.point);
 
                 line.enabled = true;
