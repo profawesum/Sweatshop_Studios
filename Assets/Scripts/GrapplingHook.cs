@@ -21,7 +21,7 @@ public class GrapplingHook : MonoBehaviour
 	
 	// Update is called once per frame
 	void Update () {
-		if(Input.GetKeyDown(KeyCode.E))
+		if(Input.GetButtonDown("Grapple"))
         {
             Debug.Log("hello");
             targetpos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -35,7 +35,7 @@ public class GrapplingHook : MonoBehaviour
                 joint.connectedBody = hit.collider.gameObject.GetComponent<Rigidbody2D>();
                 joint.distance = Vector2.Distance(transform.position, hit.point);
             }
-            if(Input.GetKeyUp(KeyCode.E))
+            if(Input.GetButtonUp("Grapple"))
             {
                 joint.enabled = false;
             }

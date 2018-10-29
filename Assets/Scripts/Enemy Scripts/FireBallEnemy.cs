@@ -7,9 +7,11 @@ public class FireBallEnemy : MonoBehaviour {
     public bool inRange = false;
     public GameObject fireball;
     public Rigidbody projectile;
-    public int Hp;
+    public float bulletSpeed;
 
 
+
+    public int timeDelay;
     public int timer;
 
 	// Update is called once per frame
@@ -21,14 +23,14 @@ public class FireBallEnemy : MonoBehaviour {
         //checks to see if the player is in range
         if (inRange == true)
         {
-            if (timer > 50)
+            if (timer > timeDelay)
             {
                 //create a clone of the rigidbody
                 Rigidbody clone;
                 //instantiate the clone
                 clone = Instantiate(projectile, transform.position, transform.rotation) as Rigidbody;
                 //give the clone speed
-                clone.velocity = transform.TransformDirection(Vector3.left * 50);
+                clone.velocity = transform.TransformDirection(Vector3.left * bulletSpeed);
                 //set timer to 0
                 timer = 0;
             }
