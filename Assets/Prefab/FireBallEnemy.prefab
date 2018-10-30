@@ -158,9 +158,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inRange: 0
-  fireball: {fileID: 0}
-  projectile: {fileID: 0}
-  Hp: 1
+  fireball: {fileID: 1060765319925748, guid: 613e179aca4279e4baea6b6c8ab82a69, type: 2}
+  projectile: {fileID: 54951561428231690, guid: 613e179aca4279e4baea6b6c8ab82a69,
+    type: 2}
+  bulletSpeed: 0
+  timeDelay: 0
   timer: 0
 --- !u!212 &212696352132769300
 SpriteRenderer:
