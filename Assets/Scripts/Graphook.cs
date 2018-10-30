@@ -34,7 +34,7 @@ public class Graphook : MonoBehaviour
         }
 
 
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.W))
         {
             targetPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             targetPos.z = 0;
@@ -66,14 +66,14 @@ public class Graphook : MonoBehaviour
 
             }
         }
-        if (Input.GetKey(KeyCode.E))
+        if (Input.GetKey(KeyCode.W))
         {
 
             line.SetPosition(0, transform.position);
         }
 
 
-        if (Input.GetKeyUp(KeyCode.E))
+        if (Input.GetKeyUp(KeyCode.W))
         {
             joint.enabled = false;
             line.enabled = false;
