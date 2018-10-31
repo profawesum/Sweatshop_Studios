@@ -20,7 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4607569391695146}
   - component: {fileID: 212142483704260894}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: PrototypeWhite04x01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36,7 +36,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4807018375152140}
   - component: {fileID: 212769895643831308}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: PrototypeWhite04x01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54,7 +54,7 @@ GameObject:
   - component: {fileID: 61773412058732898}
   - component: {fileID: 61530298038604848}
   - component: {fileID: 114058637271369942}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Disapperaing Platfrom BAsre
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -69,7 +69,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4675026824173970}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Disappearing Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -85,7 +85,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4902537660114766}
   - component: {fileID: 61719142805237064}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Slider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -101,7 +101,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4002861796055584}
   - component: {fileID: 61220643903408248}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Slider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -117,7 +117,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4267673772012318}
   - component: {fileID: 212725804259397958}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: PrototypeWhite04x01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
