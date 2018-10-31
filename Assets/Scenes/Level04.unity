@@ -225,7 +225,7 @@ GameObject:
   m_Component:
   - component: {fileID: 16037482}
   - component: {fileID: 16037483}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Slider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -282,7 +282,7 @@ GameObject:
   m_Component:
   - component: {fileID: 45389687}
   - component: {fileID: 45389688}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: PrototypeWhite04x01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -443,7 +443,7 @@ GameObject:
   m_Component:
   - component: {fileID: 93503513}
   - component: {fileID: 93503514}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: PrototypeWhite04x01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -521,7 +521,7 @@ GameObject:
   m_Component:
   - component: {fileID: 93798908}
   - component: {fileID: 93798909}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Slider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -582,7 +582,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 99910200}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Disappearing Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -618,7 +618,7 @@ GameObject:
   m_Component:
   - component: {fileID: 102371970}
   - component: {fileID: 102371971}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: PrototypeWhite04x01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -711,7 +711,7 @@ GameObject:
   m_Component:
   - component: {fileID: 130043508}
   - component: {fileID: 130043509}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: PrototypeWhite04x01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -791,7 +791,7 @@ GameObject:
   - component: {fileID: 133377352}
   - component: {fileID: 133377351}
   - component: {fileID: 133377350}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Disapperaing Platfrom BAsre (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1014,7 +1014,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 188679009}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Disappearing Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1095,6 +1095,22 @@ Prefab:
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 6200000, guid: e7d0d20fa9ee83c46b0d03e0d8dbbd01, type: 2}
+    - target: {fileID: 100008, guid: 674c23718320e9d498cdad2a5bcd576a, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 674c23718320e9d498cdad2a5bcd576a, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: 674c23718320e9d498cdad2a5bcd576a, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 674c23718320e9d498cdad2a5bcd576a, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 674c23718320e9d498cdad2a5bcd576a, type: 2}
   m_IsPrefabAsset: 0
@@ -1282,6 +1298,22 @@ Prefab:
     - target: {fileID: 400014, guid: 47d3e747b2e87de4c8358aaa436365ea, type: 2}
       propertyPath: m_LocalScale.x
       value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100012, guid: 47d3e747b2e87de4c8358aaa436365ea, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 47d3e747b2e87de4c8358aaa436365ea, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 47d3e747b2e87de4c8358aaa436365ea, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100014, guid: 47d3e747b2e87de4c8358aaa436365ea, type: 2}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 47d3e747b2e87de4c8358aaa436365ea, type: 2}
@@ -1485,6 +1517,22 @@ Prefab:
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 6200000, guid: e7d0d20fa9ee83c46b0d03e0d8dbbd01, type: 2}
+    - target: {fileID: 100008, guid: 674c23718320e9d498cdad2a5bcd576a, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: 674c23718320e9d498cdad2a5bcd576a, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 674c23718320e9d498cdad2a5bcd576a, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 674c23718320e9d498cdad2a5bcd576a, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 674c23718320e9d498cdad2a5bcd576a, type: 2}
   m_IsPrefabAsset: 0
@@ -1498,7 +1546,7 @@ GameObject:
   m_Component:
   - component: {fileID: 354442816}
   - component: {fileID: 354442817}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Slider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1555,7 +1603,7 @@ GameObject:
   m_Component:
   - component: {fileID: 358529679}
   - component: {fileID: 358529680}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: PrototypeWhite04x01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1688,7 +1736,7 @@ GameObject:
   m_Component:
   - component: {fileID: 374608075}
   - component: {fileID: 374608076}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Slider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1745,7 +1793,7 @@ GameObject:
   m_Component:
   - component: {fileID: 389971804}
   - component: {fileID: 389971805}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: PrototypeWhite04x01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1823,7 +1871,7 @@ GameObject:
   m_Component:
   - component: {fileID: 439317319}
   - component: {fileID: 439317320}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: PrototypeWhite04x01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2063,7 +2111,7 @@ GameObject:
   m_Component:
   - component: {fileID: 547247023}
   - component: {fileID: 547247024}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: PrototypeWhite04x01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2216,6 +2264,34 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1370995656774160, guid: afe79089221cfde4da7b6540ccd8255d, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1738474075023124, guid: afe79089221cfde4da7b6540ccd8255d, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1193484232320052, guid: afe79089221cfde4da7b6540ccd8255d, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1097345117673954, guid: afe79089221cfde4da7b6540ccd8255d, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1953198269608650, guid: afe79089221cfde4da7b6540ccd8255d, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1849906263296084, guid: afe79089221cfde4da7b6540ccd8255d, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1851071185687664, guid: afe79089221cfde4da7b6540ccd8255d, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: afe79089221cfde4da7b6540ccd8255d, type: 2}
   m_IsPrefabAsset: 0
@@ -2229,7 +2305,7 @@ GameObject:
   m_Component:
   - component: {fileID: 597483552}
   - component: {fileID: 597483553}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Slider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2293,7 +2369,7 @@ GameObject:
   - component: {fileID: 601636157}
   - component: {fileID: 601636156}
   - component: {fileID: 601636155}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Disapperaing Platfrom BAsre (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2387,7 +2463,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 623334050}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Disappearing Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2423,7 +2499,7 @@ GameObject:
   m_Component:
   - component: {fileID: 701890938}
   - component: {fileID: 701890939}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Slider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2479,7 +2555,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 712616264}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Disappearing Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2515,7 +2591,7 @@ GameObject:
   m_Component:
   - component: {fileID: 716740026}
   - component: {fileID: 716740027}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: PrototypeWhite04x01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2598,7 +2674,7 @@ GameObject:
   m_Component:
   - component: {fileID: 751559766}
   - component: {fileID: 751559767}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: PrototypeWhite04x01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2678,7 +2754,7 @@ GameObject:
   - component: {fileID: 764820058}
   - component: {fileID: 764820057}
   - component: {fileID: 764820056}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Disapperaing Platfrom BAsre (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2773,7 +2849,7 @@ GameObject:
   m_Component:
   - component: {fileID: 777891645}
   - component: {fileID: 777891646}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: PrototypeWhite04x01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2943,6 +3019,22 @@ Prefab:
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 6200000, guid: e7d0d20fa9ee83c46b0d03e0d8dbbd01, type: 2}
+    - target: {fileID: 100008, guid: 674c23718320e9d498cdad2a5bcd576a, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 674c23718320e9d498cdad2a5bcd576a, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: 674c23718320e9d498cdad2a5bcd576a, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 674c23718320e9d498cdad2a5bcd576a, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 674c23718320e9d498cdad2a5bcd576a, type: 2}
   m_IsPrefabAsset: 0
@@ -3012,7 +3104,7 @@ GameObject:
   m_Component:
   - component: {fileID: 843871830}
   - component: {fileID: 843871831}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: PrototypeWhite04x01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3090,7 +3182,7 @@ GameObject:
   m_Component:
   - component: {fileID: 846742363}
   - component: {fileID: 846742364}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Slider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3234,6 +3326,22 @@ Prefab:
     - target: {fileID: 400014, guid: 47d3e747b2e87de4c8358aaa436365ea, type: 2}
       propertyPath: m_LocalScale.x
       value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100012, guid: 47d3e747b2e87de4c8358aaa436365ea, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100014, guid: 47d3e747b2e87de4c8358aaa436365ea, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 47d3e747b2e87de4c8358aaa436365ea, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 47d3e747b2e87de4c8358aaa436365ea, type: 2}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 47d3e747b2e87de4c8358aaa436365ea, type: 2}
@@ -3418,7 +3526,7 @@ Prefab:
     - target: {fileID: 114465937769409210, guid: ea419b90cef4f224e9ff00e45e27cc56,
         type: 2}
       propertyPath: m_WhatIsGround.m_Bits
-      value: 0
+      value: 1024
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea419b90cef4f224e9ff00e45e27cc56, type: 2}
@@ -3609,7 +3717,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1056187907}
   - component: {fileID: 1056187908}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Slider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3665,7 +3773,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1058532061}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Disappearing Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3757,7 +3865,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1131853878}
   - component: {fileID: 1131853879}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Slider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3853,7 +3961,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1145591483}
   - component: {fileID: 1145591484}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: PrototypeWhite04x01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3933,7 +4041,7 @@ GameObject:
   - component: {fileID: 1149428976}
   - component: {fileID: 1149428975}
   - component: {fileID: 1149428974}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Disapperaing Platfrom BAsre (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4079,7 +4187,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1181605039}
   - component: {fileID: 1181605040}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: PrototypeWhite04x01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4194,6 +4302,22 @@ Prefab:
       propertyPath: m_LocalScale.x
       value: -1
       objectReference: {fileID: 0}
+    - target: {fileID: 100012, guid: 47d3e747b2e87de4c8358aaa436365ea, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 47d3e747b2e87de4c8358aaa436365ea, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100014, guid: 47d3e747b2e87de4c8358aaa436365ea, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 47d3e747b2e87de4c8358aaa436365ea, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 47d3e747b2e87de4c8358aaa436365ea, type: 2}
   m_IsPrefabAsset: 0
@@ -4207,7 +4331,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1199327935}
   - component: {fileID: 1199327936}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Slider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4269,7 +4393,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1206192169}
   - component: {fileID: 1206192170}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: PrototypeWhite04x01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4442,7 +4566,7 @@ GameObject:
   - component: {fileID: 1356599650}
   - component: {fileID: 1356599649}
   - component: {fileID: 1356599648}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Disapperaing Platfrom BAsre (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4536,7 +4660,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1361814523}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Disappearing Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4605,6 +4729,34 @@ Prefab:
       propertyPath: m_Name
       value: Platform12x01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 0ce4cbc241d3aca4da0b94a0ffa0d51f, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0ce4cbc241d3aca4da0b94a0ffa0d51f, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 0ce4cbc241d3aca4da0b94a0ffa0d51f, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: 0ce4cbc241d3aca4da0b94a0ffa0d51f, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: 0ce4cbc241d3aca4da0b94a0ffa0d51f, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 0ce4cbc241d3aca4da0b94a0ffa0d51f, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100012, guid: 0ce4cbc241d3aca4da0b94a0ffa0d51f, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ce4cbc241d3aca4da0b94a0ffa0d51f, type: 2}
   m_IsPrefabAsset: 0
@@ -4620,7 +4772,7 @@ GameObject:
   - component: {fileID: 1415291398}
   - component: {fileID: 1415291397}
   - component: {fileID: 1415291396}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Disapperaing Platfrom BAsre (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4720,7 +4872,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1489566667}
   - component: {fileID: 1489566668}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Slider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4936,6 +5088,22 @@ Prefab:
       propertyPath: m_RootOrder
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 100012, guid: 47d3e747b2e87de4c8358aaa436365ea, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100014, guid: 47d3e747b2e87de4c8358aaa436365ea, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 47d3e747b2e87de4c8358aaa436365ea, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 47d3e747b2e87de4c8358aaa436365ea, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 47d3e747b2e87de4c8358aaa436365ea, type: 2}
   m_IsPrefabAsset: 0
@@ -5088,7 +5256,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1604961260}
   - component: {fileID: 1604961261}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: PrototypeWhite04x01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5263,7 +5431,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1644153498}
   - component: {fileID: 1644153499}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: PrototypeWhite04x01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5437,6 +5605,22 @@ Prefab:
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 6200000, guid: e7d0d20fa9ee83c46b0d03e0d8dbbd01, type: 2}
+    - target: {fileID: 100008, guid: 674c23718320e9d498cdad2a5bcd576a, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: 674c23718320e9d498cdad2a5bcd576a, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 674c23718320e9d498cdad2a5bcd576a, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 674c23718320e9d498cdad2a5bcd576a, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 674c23718320e9d498cdad2a5bcd576a, type: 2}
   m_IsPrefabAsset: 0
@@ -5450,7 +5634,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1707886591}
   - component: {fileID: 1707886592}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: PrototypeWhite04x01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5565,6 +5749,22 @@ Prefab:
       propertyPath: m_LocalScale.x
       value: -1
       objectReference: {fileID: 0}
+    - target: {fileID: 100012, guid: 47d3e747b2e87de4c8358aaa436365ea, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 47d3e747b2e87de4c8358aaa436365ea, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 47d3e747b2e87de4c8358aaa436365ea, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100014, guid: 47d3e747b2e87de4c8358aaa436365ea, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 47d3e747b2e87de4c8358aaa436365ea, type: 2}
   m_IsPrefabAsset: 0
@@ -5631,6 +5831,34 @@ Prefab:
     - target: {fileID: 400006, guid: 0ce4cbc241d3aca4da0b94a0ffa0d51f, type: 2}
       propertyPath: m_RootOrder
       value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 0ce4cbc241d3aca4da0b94a0ffa0d51f, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0ce4cbc241d3aca4da0b94a0ffa0d51f, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 0ce4cbc241d3aca4da0b94a0ffa0d51f, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100012, guid: 0ce4cbc241d3aca4da0b94a0ffa0d51f, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: 0ce4cbc241d3aca4da0b94a0ffa0d51f, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: 0ce4cbc241d3aca4da0b94a0ffa0d51f, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 0ce4cbc241d3aca4da0b94a0ffa0d51f, type: 2}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ce4cbc241d3aca4da0b94a0ffa0d51f, type: 2}
@@ -5707,7 +5935,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1998312947}
   - component: {fileID: 1998312948}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Slider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
