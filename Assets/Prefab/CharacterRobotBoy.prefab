@@ -426,7 +426,7 @@ MonoBehaviour:
   m_AirControl: 1
   m_WhatIsGround:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 1024
   dashMoveSpeed: 5000
   dashTime: 1
   dJump: 1
