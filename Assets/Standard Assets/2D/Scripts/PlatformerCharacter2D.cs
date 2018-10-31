@@ -21,6 +21,7 @@ namespace UnityStandardAssets._2D
         private bool m_FacingRight = true;  // For determining which way the player is currently facing.
 
 
+        public float gravityScale;
         public float dashMoveSpeed = 5000;
         public bool dashTime = true;
         public bool dJump = true;
@@ -28,6 +29,8 @@ namespace UnityStandardAssets._2D
         public float delay;
 
         public bool hasAttacked;
+
+        public float temp;
 
 
 
@@ -74,10 +77,10 @@ namespace UnityStandardAssets._2D
             {
                 //sets double jump to false
                 dJump = false;
+                m_Rigidbody2D.velocity = new Vector2(0, 0);
                 //adds jump force to the player
                 m_Rigidbody2D.AddForce(new Vector2(0F, m_JumpForce));
             }
-
 
             //gets input for dash (dash is shift by default)
             if (Input.GetButtonDown("Dash"))
