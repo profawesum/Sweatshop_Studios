@@ -39,7 +39,7 @@ public class Graphook : MonoBehaviour
             targetPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             targetPos.z = 0;
 
-            hit = Physics2D.Raycast(transform.position, targetPos - transform.position, distance, mask);
+            hit = Physics2D.CircleCast(transform.position,2, targetPos - transform.position, distance, mask);
 
             if (hit.collider != null && hit.collider.gameObject.GetComponent<Rigidbody2D>() != null)
 
