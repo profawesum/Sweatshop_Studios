@@ -17,7 +17,7 @@ public class Building_Fall : MonoBehaviour {
        
         if(!hand == GameObject.Find("Disapperaing Platfrom BAsre"))
         {
-            transform.Postion(transform.down * Time.deltaTime * movementSpeed);
+            //transform.Postion(transform.down * Time.deltaTime * movementSpeed);
         }
 	}
 }
