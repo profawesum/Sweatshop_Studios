@@ -33,7 +33,6 @@ public class MenuFunctionality : MonoBehaviour
         m_YourSecondButton.onClick.AddListener(delegate { TaskWithParameters("Hello"); });
         m_YourThirdButton.onClick.AddListener(() => ButtonClicked(42));
         m_YourFourthButton.onClick.AddListener(Exit);
-        back.onClick.AddListener(Back);
     }
 
     void TaskOnClick()
@@ -41,19 +40,6 @@ public class MenuFunctionality : MonoBehaviour
         SceneManager.LoadScene(1);
     }
 
-    void Back()
-    {
-
-        controls.enabled = false;
-        credits.enabled = false;
-        credits2.enabled = false;
-
-        Controls.enabled = false;
-        Credits.enabled = false;
-        main.enabled = true;
-
-
-    }
 
     void TaskWithParameters(string message)
     {
