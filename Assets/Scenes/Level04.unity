@@ -352,13 +352,13 @@ Prefab:
         type: 2}
       propertyPath: fireball
       value: 
-      objectReference: {fileID: 1060765319925748, guid: 613e179aca4279e4baea6b6c8ab82a69,
+      objectReference: {fileID: 1550769669893216, guid: 1b07f37c15f15ee47bbdb93b44709979,
         type: 2}
     - target: {fileID: 114585729566538246, guid: b01c193124f153944bf7db047123b6fc,
         type: 2}
       propertyPath: projectile
       value: 
-      objectReference: {fileID: 54951561428231690, guid: 613e179aca4279e4baea6b6c8ab82a69,
+      objectReference: {fileID: 54268192854645932, guid: 1b07f37c15f15ee47bbdb93b44709979,
         type: 2}
     - target: {fileID: 114585729566538246, guid: b01c193124f153944bf7db047123b6fc,
         type: 2}
@@ -377,8 +377,14 @@ Prefab:
     - target: {fileID: 212696352132769300, guid: b01c193124f153944bf7db047123b6fc,
         type: 2}
       propertyPath: m_SortingOrder
-      value: 50
+      value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 212696352132769300, guid: b01c193124f153944bf7db047123b6fc,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8c90ad3526de81848bd887b35adb4660,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b01c193124f153944bf7db047123b6fc, type: 2}
   m_IsPrefabAsset: 0
@@ -691,13 +697,13 @@ Prefab:
         type: 2}
       propertyPath: fireball
       value: 
-      objectReference: {fileID: 1060765319925748, guid: 613e179aca4279e4baea6b6c8ab82a69,
+      objectReference: {fileID: 1550769669893216, guid: 1b07f37c15f15ee47bbdb93b44709979,
         type: 2}
     - target: {fileID: 114585729566538246, guid: b01c193124f153944bf7db047123b6fc,
         type: 2}
       propertyPath: projectile
       value: 
-      objectReference: {fileID: 54951561428231690, guid: 613e179aca4279e4baea6b6c8ab82a69,
+      objectReference: {fileID: 54268192854645932, guid: 1b07f37c15f15ee47bbdb93b44709979,
         type: 2}
     - target: {fileID: 114585729566538246, guid: b01c193124f153944bf7db047123b6fc,
         type: 2}
@@ -716,8 +722,14 @@ Prefab:
     - target: {fileID: 212696352132769300, guid: b01c193124f153944bf7db047123b6fc,
         type: 2}
       propertyPath: m_SortingOrder
-      value: 50
+      value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 212696352132769300, guid: b01c193124f153944bf7db047123b6fc,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8c90ad3526de81848bd887b35adb4660,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b01c193124f153944bf7db047123b6fc, type: 2}
   m_IsPrefabAsset: 0
@@ -1363,7 +1375,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 926281293}
   damping: 1
-  lookAheadFactor: 3
+  lookAheadFactor: 10
   lookAheadReturnSpeed: 0.5
   lookAheadMoveThreshold: 0.1
 --- !u!1 &335580817
@@ -2863,7 +2875,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4039064346008806, guid: b01c193124f153944bf7db047123b6fc, type: 2}
       propertyPath: m_RootOrder
-      value: 10
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 58372892909894298, guid: b01c193124f153944bf7db047123b6fc,
         type: 2}
@@ -2884,13 +2896,13 @@ Prefab:
         type: 2}
       propertyPath: fireball
       value: 
-      objectReference: {fileID: 1060765319925748, guid: 613e179aca4279e4baea6b6c8ab82a69,
+      objectReference: {fileID: 1550769669893216, guid: 1b07f37c15f15ee47bbdb93b44709979,
         type: 2}
     - target: {fileID: 114585729566538246, guid: b01c193124f153944bf7db047123b6fc,
         type: 2}
       propertyPath: projectile
       value: 
-      objectReference: {fileID: 54951561428231690, guid: 613e179aca4279e4baea6b6c8ab82a69,
+      objectReference: {fileID: 54268192854645932, guid: 1b07f37c15f15ee47bbdb93b44709979,
         type: 2}
     - target: {fileID: 114585729566538246, guid: b01c193124f153944bf7db047123b6fc,
         type: 2}
@@ -2909,8 +2921,14 @@ Prefab:
     - target: {fileID: 212696352132769300, guid: b01c193124f153944bf7db047123b6fc,
         type: 2}
       propertyPath: m_SortingOrder
-      value: 50
+      value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 212696352132769300, guid: b01c193124f153944bf7db047123b6fc,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8c90ad3526de81848bd887b35adb4660,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b01c193124f153944bf7db047123b6fc, type: 2}
   m_IsPrefabAsset: 0
@@ -3907,13 +3925,13 @@ Prefab:
         type: 2}
       propertyPath: fireball
       value: 
-      objectReference: {fileID: 1060765319925748, guid: 613e179aca4279e4baea6b6c8ab82a69,
+      objectReference: {fileID: 1550769669893216, guid: 1b07f37c15f15ee47bbdb93b44709979,
         type: 2}
     - target: {fileID: 114585729566538246, guid: b01c193124f153944bf7db047123b6fc,
         type: 2}
       propertyPath: projectile
       value: 
-      objectReference: {fileID: 54951561428231690, guid: 613e179aca4279e4baea6b6c8ab82a69,
+      objectReference: {fileID: 54268192854645932, guid: 1b07f37c15f15ee47bbdb93b44709979,
         type: 2}
     - target: {fileID: 114585729566538246, guid: b01c193124f153944bf7db047123b6fc,
         type: 2}
@@ -3932,7 +3950,21 @@ Prefab:
     - target: {fileID: 212696352132769300, guid: b01c193124f153944bf7db047123b6fc,
         type: 2}
       propertyPath: m_SortingOrder
-      value: 50
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 212696352132769300, guid: b01c193124f153944bf7db047123b6fc,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8c90ad3526de81848bd887b35adb4660,
+        type: 3}
+    - target: {fileID: 4513197605106196, guid: b01c193124f153944bf7db047123b6fc, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 6.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4513197605106196, guid: b01c193124f153944bf7db047123b6fc, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -1.97
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b01c193124f153944bf7db047123b6fc, type: 2}
@@ -5241,13 +5273,13 @@ Prefab:
         type: 2}
       propertyPath: fireball
       value: 
-      objectReference: {fileID: 1060765319925748, guid: 613e179aca4279e4baea6b6c8ab82a69,
+      objectReference: {fileID: 1550769669893216, guid: 1b07f37c15f15ee47bbdb93b44709979,
         type: 2}
     - target: {fileID: 114585729566538246, guid: b01c193124f153944bf7db047123b6fc,
         type: 2}
       propertyPath: projectile
       value: 
-      objectReference: {fileID: 54951561428231690, guid: 613e179aca4279e4baea6b6c8ab82a69,
+      objectReference: {fileID: 54268192854645932, guid: 1b07f37c15f15ee47bbdb93b44709979,
         type: 2}
     - target: {fileID: 114585729566538246, guid: b01c193124f153944bf7db047123b6fc,
         type: 2}
@@ -5266,8 +5298,14 @@ Prefab:
     - target: {fileID: 212696352132769300, guid: b01c193124f153944bf7db047123b6fc,
         type: 2}
       propertyPath: m_SortingOrder
-      value: 50
+      value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 212696352132769300, guid: b01c193124f153944bf7db047123b6fc,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8c90ad3526de81848bd887b35adb4660,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b01c193124f153944bf7db047123b6fc, type: 2}
   m_IsPrefabAsset: 0
@@ -6198,7 +6236,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4039064346008806, guid: b01c193124f153944bf7db047123b6fc, type: 2}
       propertyPath: m_RootOrder
-      value: 9
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 58372892909894298, guid: b01c193124f153944bf7db047123b6fc,
         type: 2}
@@ -6219,13 +6257,13 @@ Prefab:
         type: 2}
       propertyPath: fireball
       value: 
-      objectReference: {fileID: 1060765319925748, guid: 613e179aca4279e4baea6b6c8ab82a69,
+      objectReference: {fileID: 1550769669893216, guid: 1b07f37c15f15ee47bbdb93b44709979,
         type: 2}
     - target: {fileID: 114585729566538246, guid: b01c193124f153944bf7db047123b6fc,
         type: 2}
       propertyPath: projectile
       value: 
-      objectReference: {fileID: 54951561428231690, guid: 613e179aca4279e4baea6b6c8ab82a69,
+      objectReference: {fileID: 54268192854645932, guid: 1b07f37c15f15ee47bbdb93b44709979,
         type: 2}
     - target: {fileID: 114585729566538246, guid: b01c193124f153944bf7db047123b6fc,
         type: 2}
@@ -6244,8 +6282,14 @@ Prefab:
     - target: {fileID: 212696352132769300, guid: b01c193124f153944bf7db047123b6fc,
         type: 2}
       propertyPath: m_SortingOrder
-      value: 50
+      value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 212696352132769300, guid: b01c193124f153944bf7db047123b6fc,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8c90ad3526de81848bd887b35adb4660,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b01c193124f153944bf7db047123b6fc, type: 2}
   m_IsPrefabAsset: 0
@@ -7036,13 +7080,13 @@ Prefab:
         type: 2}
       propertyPath: fireball
       value: 
-      objectReference: {fileID: 1060765319925748, guid: 613e179aca4279e4baea6b6c8ab82a69,
+      objectReference: {fileID: 1550769669893216, guid: 1b07f37c15f15ee47bbdb93b44709979,
         type: 2}
     - target: {fileID: 114585729566538246, guid: b01c193124f153944bf7db047123b6fc,
         type: 2}
       propertyPath: projectile
       value: 
-      objectReference: {fileID: 54951561428231690, guid: 613e179aca4279e4baea6b6c8ab82a69,
+      objectReference: {fileID: 54268192854645932, guid: 1b07f37c15f15ee47bbdb93b44709979,
         type: 2}
     - target: {fileID: 114585729566538246, guid: b01c193124f153944bf7db047123b6fc,
         type: 2}
@@ -7057,7 +7101,21 @@ Prefab:
     - target: {fileID: 212696352132769300, guid: b01c193124f153944bf7db047123b6fc,
         type: 2}
       propertyPath: m_SortingOrder
-      value: 50
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 212696352132769300, guid: b01c193124f153944bf7db047123b6fc,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8c90ad3526de81848bd887b35adb4660,
+        type: 3}
+    - target: {fileID: 4513197605106196, guid: b01c193124f153944bf7db047123b6fc, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 5.98
+      objectReference: {fileID: 0}
+    - target: {fileID: 4513197605106196, guid: b01c193124f153944bf7db047123b6fc, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -1.82
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b01c193124f153944bf7db047123b6fc, type: 2}
@@ -7415,13 +7473,13 @@ Prefab:
         type: 2}
       propertyPath: fireball
       value: 
-      objectReference: {fileID: 1060765319925748, guid: 613e179aca4279e4baea6b6c8ab82a69,
+      objectReference: {fileID: 1550769669893216, guid: 1b07f37c15f15ee47bbdb93b44709979,
         type: 2}
     - target: {fileID: 114585729566538246, guid: b01c193124f153944bf7db047123b6fc,
         type: 2}
       propertyPath: projectile
       value: 
-      objectReference: {fileID: 54951561428231690, guid: 613e179aca4279e4baea6b6c8ab82a69,
+      objectReference: {fileID: 54268192854645932, guid: 1b07f37c15f15ee47bbdb93b44709979,
         type: 2}
     - target: {fileID: 114585729566538246, guid: b01c193124f153944bf7db047123b6fc,
         type: 2}
@@ -7440,8 +7498,14 @@ Prefab:
     - target: {fileID: 212696352132769300, guid: b01c193124f153944bf7db047123b6fc,
         type: 2}
       propertyPath: m_SortingOrder
-      value: 50
+      value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 212696352132769300, guid: b01c193124f153944bf7db047123b6fc,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8c90ad3526de81848bd887b35adb4660,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b01c193124f153944bf7db047123b6fc, type: 2}
   m_IsPrefabAsset: 0
@@ -8652,11 +8716,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4186414815858070, guid: 43b513e67f8a8df4ba650c7591281222, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 302.18
+      value: 303.27
       objectReference: {fileID: 0}
     - target: {fileID: 4186414815858070, guid: 43b513e67f8a8df4ba650c7591281222, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0.43
+      value: 1.68
       objectReference: {fileID: 0}
     - target: {fileID: 4186414815858070, guid: 43b513e67f8a8df4ba650c7591281222, type: 2}
       propertyPath: m_LocalPosition.z
@@ -8681,19 +8745,6 @@ Prefab:
     - target: {fileID: 4186414815858070, guid: 43b513e67f8a8df4ba650c7591281222, type: 2}
       propertyPath: m_RootOrder
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 212593935897039982, guid: 43b513e67f8a8df4ba650c7591281222,
-        type: 2}
-      propertyPath: m_SortingOrder
-      value: 1250
-      objectReference: {fileID: 0}
-    - target: {fileID: 4186414815858070, guid: 43b513e67f8a8df4ba650c7591281222, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 0.6618
-      objectReference: {fileID: 0}
-    - target: {fileID: 4186414815858070, guid: 43b513e67f8a8df4ba650c7591281222, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 0.7931
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43b513e67f8a8df4ba650c7591281222, type: 2}
