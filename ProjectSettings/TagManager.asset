@@ -8,6 +8,7 @@ TagManager:
   - Enemy
   - PlayerWeapon
   - Ground
+  - Wall
   layers:
   - Default
   - TransparentFX
@@ -20,7 +21,7 @@ TagManager:
   - Player
   - GrapplePoint
   - Ground
-  - 
+  - Wall
   - 
   - 
   - 

@@ -34,6 +34,18 @@ namespace UnityStandardAssets._2D
 
 
 
+
+        void OnTriggerEnter2D(Collider2D other) {
+
+
+            if (other.tag == "Wall") {
+
+                dJump = true;
+            }
+
+
+        }
+
         private void Awake()
         {
             // Setting up references.
