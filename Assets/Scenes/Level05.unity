@@ -725,8 +725,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inRange: 0
-  fireball: {fileID: 1060765319925748, guid: 613e179aca4279e4baea6b6c8ab82a69, type: 2}
-  projectile: {fileID: 54951561428231690, guid: 613e179aca4279e4baea6b6c8ab82a69,
+  fireball: {fileID: 1550769669893216, guid: 1b07f37c15f15ee47bbdb93b44709979, type: 2}
+  projectile: {fileID: 54268192854645932, guid: 1b07f37c15f15ee47bbdb93b44709979,
     type: 2}
   bulletSpeed: 10
   timeDelay: 60
@@ -981,8 +981,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inRange: 0
-  fireball: {fileID: 1060765319925748, guid: 613e179aca4279e4baea6b6c8ab82a69, type: 2}
-  projectile: {fileID: 54951561428231690, guid: 613e179aca4279e4baea6b6c8ab82a69,
+  fireball: {fileID: 1550769669893216, guid: 1b07f37c15f15ee47bbdb93b44709979, type: 2}
+  projectile: {fileID: 54268192854645932, guid: 1b07f37c15f15ee47bbdb93b44709979,
     type: 2}
   bulletSpeed: 10
   timeDelay: 60
@@ -1456,6 +1456,18 @@ Prefab:
       propertyPath: m_GravityScale
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114585729566538246, guid: b01c193124f153944bf7db047123b6fc,
+        type: 2}
+      propertyPath: fireball
+      value: 
+      objectReference: {fileID: 1550769669893216, guid: 1b07f37c15f15ee47bbdb93b44709979,
+        type: 2}
+    - target: {fileID: 114585729566538246, guid: b01c193124f153944bf7db047123b6fc,
+        type: 2}
+      propertyPath: projectile
+      value: 
+      objectReference: {fileID: 54268192854645932, guid: 1b07f37c15f15ee47bbdb93b44709979,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b01c193124f153944bf7db047123b6fc, type: 2}
   m_IsPrefabAsset: 0
@@ -1868,8 +1880,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inRange: 0
-  fireball: {fileID: 1060765319925748, guid: 613e179aca4279e4baea6b6c8ab82a69, type: 2}
-  projectile: {fileID: 54951561428231690, guid: 613e179aca4279e4baea6b6c8ab82a69,
+  fireball: {fileID: 1550769669893216, guid: 1b07f37c15f15ee47bbdb93b44709979, type: 2}
+  projectile: {fileID: 54268192854645932, guid: 1b07f37c15f15ee47bbdb93b44709979,
     type: 2}
   bulletSpeed: 10
   timeDelay: 60
@@ -3044,8 +3056,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inRange: 0
-  fireball: {fileID: 1060765319925748, guid: 613e179aca4279e4baea6b6c8ab82a69, type: 2}
-  projectile: {fileID: 54951561428231690, guid: 613e179aca4279e4baea6b6c8ab82a69,
+  fireball: {fileID: 1550769669893216, guid: 1b07f37c15f15ee47bbdb93b44709979, type: 2}
+  projectile: {fileID: 54268192854645932, guid: 1b07f37c15f15ee47bbdb93b44709979,
     type: 2}
   bulletSpeed: 10
   timeDelay: 60
@@ -3811,8 +3823,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inRange: 0
-  fireball: {fileID: 1060765319925748, guid: 613e179aca4279e4baea6b6c8ab82a69, type: 2}
-  projectile: {fileID: 54951561428231690, guid: 613e179aca4279e4baea6b6c8ab82a69,
+  fireball: {fileID: 1550769669893216, guid: 1b07f37c15f15ee47bbdb93b44709979, type: 2}
+  projectile: {fileID: 54268192854645932, guid: 1b07f37c15f15ee47bbdb93b44709979,
     type: 2}
   bulletSpeed: 10
   timeDelay: 60
@@ -4323,8 +4335,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inRange: 0
-  fireball: {fileID: 1060765319925748, guid: 613e179aca4279e4baea6b6c8ab82a69, type: 2}
-  projectile: {fileID: 54951561428231690, guid: 613e179aca4279e4baea6b6c8ab82a69,
+  fireball: {fileID: 1550769669893216, guid: 1b07f37c15f15ee47bbdb93b44709979, type: 2}
+  projectile: {fileID: 54268192854645932, guid: 1b07f37c15f15ee47bbdb93b44709979,
     type: 2}
   bulletSpeed: 10
   timeDelay: 60
@@ -4507,8 +4519,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inRange: 0
-  fireball: {fileID: 1060765319925748, guid: 613e179aca4279e4baea6b6c8ab82a69, type: 2}
-  projectile: {fileID: 54951561428231690, guid: 613e179aca4279e4baea6b6c8ab82a69,
+  fireball: {fileID: 1550769669893216, guid: 1b07f37c15f15ee47bbdb93b44709979, type: 2}
+  projectile: {fileID: 54268192854645932, guid: 1b07f37c15f15ee47bbdb93b44709979,
     type: 2}
   bulletSpeed: 10
   timeDelay: 60
@@ -4701,7 +4713,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -15
   m_Sprite: {fileID: 21300000, guid: 1dc27719bdf013a4eb470353c1d79865, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
