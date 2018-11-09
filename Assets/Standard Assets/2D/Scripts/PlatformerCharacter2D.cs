@@ -33,19 +33,10 @@ namespace UnityStandardAssets._2D
 
         public float temp;
 
+        public int health = 3;
 
 
 
-        void OnTriggerEnter2D(Collider2D other) {
-
-
-            if (other.tag == "Wall") {
-
-                dJump = true;
-            }
-
-
-        }
 
         private void Awake()
         {
@@ -54,6 +45,7 @@ namespace UnityStandardAssets._2D
             m_CeilingCheck = transform.Find("CeilingCheck");
             m_Anim = GetComponent<Animator>();
             m_Rigidbody2D = GetComponent<Rigidbody2D>();
+            m_Anim.SetInteger("Health", health);
         }
 
 
@@ -74,6 +66,32 @@ namespace UnityStandardAssets._2D
             m_Anim.SetBool("Ground", m_Grounded);
             // Set the vertical animation
             m_Anim.SetFloat("vSpeed", m_Rigidbody2D.velocity.y);
+        }
+
+        void OnTriggerEnter2D(Collider2D other)
+        {
+
+
+            if (other.tag == "Wall")
+            {
+
+                dJump = true;
+            }
+            if (other.tag == "Enemy")
+            {
+                
+                if (health == 3)
+                {
+                    m_Anim.SetInteger("Health", 2);
+                }
+                else if (health == 2)
+                {
+                    m_Anim.SetInteger("Health", 1);
+                }
+                health -= 1;
+            }
+
+
         }
 
 

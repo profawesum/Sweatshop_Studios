@@ -8,12 +8,27 @@ public class pause : MonoBehaviour {
     public static bool GameisPaused = false;
     public GameObject pauseMenuUI;
 
-	// Update is called once per frame
-	void Update ()
+    public static pause instance;
+
+    void Awake()
     {
-        if(Input.GetKeyDown(KeyCode.Escape))
+        if (instance == null)
+            instance = this;
+        else
         {
-            if(GameisPaused)
+            Destroy(gameObject);
+            return;
+        }
+
+        DontDestroyOnLoad(gameObject);
+
+    }
+    // Update is called once per frame
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (GameisPaused)
             {
                 Resume();
             }
@@ -22,8 +37,7 @@ public class pause : MonoBehaviour {
                 Pause();
             }
         }
-		
-	}
+    }
 
     public void Resume()
     {

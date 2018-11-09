@@ -11,6 +11,7 @@ public class Graphook : MonoBehaviour
     public float distance = 10f;
     public LayerMask mask;
     public float step = 0.02f;
+    bool sound = false;
 
     // Use this for initialization
     void Start()
@@ -44,7 +45,8 @@ public class Graphook : MonoBehaviour
             if (hit.collider != null && hit.collider.gameObject.GetComponent<Rigidbody2D>() != null)
 
             {
-                FindObjectOfType<AudioManager>().Play("GrapplingHookv2");
+                sound = true;
+                //FindObjectOfType<AudioManager>().Play("GrapplingHookv2");
                 joint.enabled = true;
                 //Debug.Log (hit.point - new Vector2(hit.collider.transform.position.x,hit.collider.transform.position.y);
                 Vector2 connectPoint = hit.point - new Vector2(hit.collider.transform.position.x, hit.collider.transform.position.y);
@@ -78,6 +80,11 @@ public class Graphook : MonoBehaviour
         {
             joint.enabled = false;
             line.enabled = false;
+        }
+
+        if (sound == true)
+        {
+            FindObjectOfType<AudioManager>().Play("GrapplingHookv2");
         }
 
     }
