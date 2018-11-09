@@ -4514,6 +4514,16 @@ Prefab:
       propertyPath: timerText
       value: 
       objectReference: {fileID: 469513074}
+    - target: {fileID: 61616337296592090, guid: ea419b90cef4f224e9ff00e45e27cc56,
+        type: 2}
+      propertyPath: m_Offset.x
+      value: -0.0043386817
+      objectReference: {fileID: 0}
+    - target: {fileID: 61616337296592090, guid: ea419b90cef4f224e9ff00e45e27cc56,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1.112811
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea419b90cef4f224e9ff00e45e27cc56, type: 2}
   m_IsPrefabAsset: 0
