@@ -44,6 +44,7 @@ public class Graphook : MonoBehaviour
             if (hit.collider != null && hit.collider.gameObject.GetComponent<Rigidbody2D>() != null)
 
             {
+                FindObjectOfType<AudioManager>().Play("GrapplingHookv2");
                 joint.enabled = true;
                 //Debug.Log (hit.point - new Vector2(hit.collider.transform.position.x,hit.collider.transform.position.y);
                 Vector2 connectPoint = hit.point - new Vector2(hit.collider.transform.position.x, hit.collider.transform.position.y);
