@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.Playables;
 
 namespace UnityStandardAssets._2D
 {
@@ -87,6 +88,7 @@ namespace UnityStandardAssets._2D
             //Double Jump functionality
             if (Input.GetButtonDown("Jump") && m_Grounded == false && dJump == true)
             {
+                //FindObjectOfType<AudioManager>().Play("Jump");
                 //sets double jump to false
                 dJump = false;
                 m_Rigidbody2D.velocity = new Vector2(0, 0);
@@ -97,6 +99,7 @@ namespace UnityStandardAssets._2D
             //gets input for dash (dash is shift by default)
             if (Input.GetButtonDown("Dash"))
             {
+                //FindObjectOfType<AudioManager>().Play("GrapplingHook");
                 //checks to find orientation
                 if (m_FacingRight == true)
                 {

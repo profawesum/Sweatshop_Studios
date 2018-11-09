@@ -31,6 +31,7 @@ public class GrapplingHook : MonoBehaviour
 
             if (hit.collider != null && hit.collider.gameObject.GetComponent<Rigidbody2D>() != null)
             {
+                FindObjectOfType<AudioManager>().Play("GrapplingHookv2");
                 joint.enabled = true;
                 joint.connectedBody = hit.collider.gameObject.GetComponent<Rigidbody2D>();
                 joint.distance = Vector2.Distance(transform.position, hit.point);

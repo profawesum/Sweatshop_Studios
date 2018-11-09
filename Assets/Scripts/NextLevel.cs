@@ -20,8 +20,9 @@ public class NextLevel : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D other) {
 
-        if (other.tag == "Player") {
-
+        if (other.tag == "Player")
+        {
+            FindObjectOfType<AudioManager>().Play("GrapplingHook");
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 
         }
