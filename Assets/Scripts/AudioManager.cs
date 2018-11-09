@@ -50,5 +50,7 @@ public class AudioManager : MonoBehaviour {
         s.source.Play();
     }
 
+
+    //Place this anywhere 
     //FindObjectoOfType<AudioManager>().Play("PlaceHolder soundName")
 }
