@@ -52,15 +52,39 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sounds:
-  - name: 
-    clip: {fileID: 0}
+  - name: GrapplingHookv2
+    clip: {fileID: 8300000, guid: 6c2168df012e0514aa77eeab43e949fa, type: 3}
     volume: 1
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Theme
     clip: {fileID: 8300000, guid: 04c788110255f9b40919386154528364, type: 3}
-    volume: 0.182
+    volume: 0.1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Jump
+    clip: {fileID: 8300000, guid: 1c7a68256a6acd242b2bea2be0dc975f, type: 3}
+    volume: 0.1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: GrapplingHook
+    clip: {fileID: 8300000, guid: 5743c494ffcd5db4badb897ec1968c09, type: 3}
+    volume: 0.1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Finish
+    clip: {fileID: 8300000, guid: 8c7501d80de9cee4cb49ba8f72c4cb85, type: 3}
+    volume: 0.1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: EnemyFire
+    clip: {fileID: 8300000, guid: 2bf51a0135439b44aa853f5928d2c5c8, type: 3}
+    volume: 0.1
     pitch: 1
     loop: 1
     source: {fileID: 0}
