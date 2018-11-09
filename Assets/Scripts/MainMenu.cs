@@ -2,17 +2,24 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class MainMenu : MonoBehaviour
 {
+    public Button m_YourFirstButton, m_YourSecondButton;
 
-    public void PlayGame ()
+    void Start()
     {
-        SceneManager.LoadScene("Level_One");
+           m_YourFirstButton.onClick.AddListener(TaskOnClick);
+           m_YourSecondButton.onClick.AddListener(Exit);
     }
-    public void QuitGame()
+
+    public void TaskOnClick()
     {
-        Debug.Log("QUIT!");
+        SceneManager.LoadScene("MenuScene");
+    }
+    public void Exit()
+    {
         Application.Quit();
     }
 }
