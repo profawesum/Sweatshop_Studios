@@ -88,3 +88,39 @@ MonoBehaviour:
     pitch: 1
     loop: 0
     source: {fileID: 0}
+  - name: JumpJump
+    clip: {fileID: 8300000, guid: 5897aeed9b676024fbb8c694b421a861, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Land
+    clip: {fileID: 8300000, guid: 3b09d59f4499d45428baa7a21e954296, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Reeee
+    clip: {fileID: 8300000, guid: e7ecd5bc9d52c824cb65aa526b0169b4, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Acceleration
+    clip: {fileID: 8300000, guid: 03e3bd08a6e70684dbe299a3e185fdd2, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Decceleration
+    clip: {fileID: 8300000, guid: 03bf91d88fce91c41995d27de63cc967, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Jet
+    clip: {fileID: 8300000, guid: 9db9336e9f17c9744847c5fe94c1650f, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
